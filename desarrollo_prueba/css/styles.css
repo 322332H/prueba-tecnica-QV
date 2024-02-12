@@ -1,0 +1,138 @@
+.header {
+    background-image: url('../recursos/encabezado.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+    height: 300px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(6, 66, 145, 0.5);
+    }
+}
+
+.header h1 {
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+}
+
+.header h2 {
+    position: relative;
+    z-index: 1;
+    font-size: 26px;
+    position: relative;
+    z-index: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav {
+    position: absolute;
+    top: 25px;
+    left: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* login */
+
+.login {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+#iniciarSesion {
+    padding: 0;
+
+}
+
+.search-icon img {
+    height: 20px;
+}
+
+.btn-link {
+    color: white !important;
+    /* Establece el color del texto en blanco */
+    text-decoration: none !important;
+    /* Elimina cualquier decoración de texto, como el subrayado */
+}
+
+.btn-link:hover {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#modalIniciarSesionLabel {
+    color: #1D3A6C !important;
+    text-align: center !important;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 26px;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+#closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#email,
+#password {
+    width: calc(100% - 80px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+#accederBoton {
+    width: calc(100% - 90px);
+    padding: 10px;
+    background-color: #1D3A6C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 50px;
+}

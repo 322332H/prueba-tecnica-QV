@@ -1,0 +1,43 @@
+#tituloAprende {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #1d3a6c;
+  font-family: "Nunito", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#inst17280 {
+  width: 60% !important;
+  border-radius: 400px !important;
+  border: 8px solid #6c757d;
+  margin-left: 100px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-one p {
+  margin-bottom: 15px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+.color-white {
+  color: #ffffff !important;
+}
+
+.divider {
+  padding: 100px 0px 40px 0px;
+}
+#textoAprender{
+  margin-left: auto;
+  margin-top: 10%;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+

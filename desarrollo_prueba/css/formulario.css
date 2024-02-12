@@ -1,0 +1,48 @@
+#imagenRegistro {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 8px solid #1D3A6C;
+}
+
+#tituloFormulario {
+    color: #1D3A6C;
+    text-align: center;
+    font-size: 26px;
+    position: relative;
+    z-index: 1;
+    font-family: 'Nunito', sans-serif;
+}
+
+.label {
+    color: #494a4c;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.input {
+    width: calc(100% - 80px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+#checkbox {
+    position: relative;
+    text-align: left;
+    margin-left: 40px;
+}
+
+#botonRegistrarse{
+    width: calc(100% - 90px);
+    padding: 10px;
+    background-color: #1D3A6C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 50px;
+}
